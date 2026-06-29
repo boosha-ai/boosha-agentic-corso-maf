@@ -1,0 +1,20 @@
+# ambiente
+.env
+.venv/
+
+# uv
+.uv/
+
+# python
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# artefatti generati dai run dei notebook/script
+output.md
+output_*.md
