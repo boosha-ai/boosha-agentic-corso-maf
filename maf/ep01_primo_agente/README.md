@@ -1,6 +1,6 @@
 # ep01_primo_agente
 
-[![Apri in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Pandagan-85/boosha-agentic-corso-maf/blob/main/maf/ep01_primo_agente/pratica.ipynb)
+[![Apri in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/boosha-ai/boosha-agentic-corso-maf/blob/main/maf/ep01_primo_agente/pratica.ipynb)
 
 Il tuo primo agente con Microsoft Agent Framework: poche righe di codice, eseguito su OpenAI e poi - stesso codice - in locale con Ollama.
 
