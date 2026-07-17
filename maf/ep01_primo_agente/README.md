@@ -2,6 +2,8 @@
 
 [![Apri in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/boosha-ai/boosha-agentic-corso-maf/blob/main/maf/ep01_primo_agente/pratica.ipynb)
 
+> Prima di iniziare: [creare le chiavi API](../Extra/chiavi-api.md) · [ambiente Python con uv](../Extra/ambiente-python-uv.md)
+
 Il tuo primo agente con Microsoft Agent Framework: poche righe di codice, eseguito su OpenAI e poi - stesso codice - in locale con Ollama.
 
 Nel notebook costruiamo l'agente passo passo:
@@ -22,3 +24,4 @@ Contenuto della puntata:
 ## Risultato
 
 ![Notifica Pushover con l'output dell'agente](pushover_screen_fan_critico.png)
+

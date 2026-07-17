@@ -22,7 +22,7 @@ Per scaricare tutto in locale: `Code -> Download ZIP` qui su GitHub, oppure clon
 Vedi [`SETUP.md`](SETUP.md). In sintesi (gestione dipendenze con [`uv`](https://docs.astral.sh/uv/)):
 
 ```bash
-uv sync
+uv sync --all-groups
 cp .env.example .env   # poi inserisci la tua OPENAI_API_KEY
 uv run jupyter lab
 ```
@@ -36,7 +36,7 @@ Sviluppatori con un po' di Python (e nozioni minime di `async`/`await`) che vogl
 | EP | Tema | Stato |
 | --- | --- | --- |
 | [1](maf/ep01_primo_agente/) | Il tuo primo agente (agente vs workflow, multi-provider) | disponibile |
-| 2 | Dare strumenti: tools + MCP | in arrivo |
+| [2](maf/ep02_tools_mcp/) | Dare strumenti: tools + MCP | disponibile |
 | 3 | Memoria e stato: thread, sessioni, context provider | in arrivo |
 | 4 | Orchestrare piu' agenti: handoff e group chat | in arrivo |
 | 5 | Workflow deterministici + human-in-the-loop | in arrivo |

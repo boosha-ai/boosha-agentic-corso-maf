@@ -12,7 +12,7 @@ Gestione dipendenze con [`uv`](https://docs.astral.sh/uv/).
 
 ```bash
 # dalla cartella del corso
-uv sync
+uv sync --all-groups
 uv run jupyter lab
 ```
 
@@ -20,7 +20,7 @@ Se preferisci partire da zero invece di `uv sync`:
 
 ```bash
 uv init
-uv add agent-framework-core agent-framework-openai agent-framework-ollama python-dotenv
+uv add agent-framework-core agent-framework-openai agent-framework-ollama python-dotenv beautifulsoup4 mcp tavily-python
 ```
 
 > Nota: il meta-pacchetto `agent-framework[all]` non risolve per via degli extra Azure ancora in pre-release. Si installano i sotto-pacchetti elencati sopra.
@@ -35,7 +35,11 @@ cp .env.example .env
 
 - `OPENAI_API_KEY` - sempre (provider cloud di default).
 - `PUSHOVER_TOKEN` / `PUSHOVER_USER` - opzionali, per le notifiche push (da EP 1 in poi).
+- `TAVILY_API_KEY` - opzionale, per la ricerca recensioni su domini fidati (da EP 2).
 - Ollama gira in locale e non richiede chiave (default `http://localhost:11434`).
+
+> Guida passo-passo per creare le chiavi: [`maf/Extra/chiavi-api.md`](maf/Extra/chiavi-api.md).
+> Approfondimento su `uv`: [`maf/Extra/ambiente-python-uv.md`](maf/Extra/ambiente-python-uv.md).
 
 ## Provider
 
