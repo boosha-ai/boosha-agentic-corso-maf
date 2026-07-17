@@ -1,0 +1,40 @@
+{
+  "titolo": "Glass",
+  "anno": 2019,
+  "regista": "M. Night Shyamalan",
+  "incasso": "$247 million",
+  "rotten_tomatoes": "37%",
+  "descrizione": "Glass is a 2019 American superhero thriller film written and directed by M. Night Shyamalan. It is a crossover and sequel to Shyamalan's previous films Unbreakable (2000) and Split (2016) and the third and final installment of the Unbreakable trilogy.",
+  "recensioni": [
+    {
+      "fonte": "Roger Ebert",
+      "url": "https://www.rogerebert.com/reviews/glass-2019",
+      "sentiment": "positiva",
+      "estratto": "Night Shyamalan has finally produced his first direct sequel, the mash-up that is “Glass,” bringing together characters from two of his biggest hits."
+    },
+    {
+      "fonte": "Rotten Tomatoes Editorial",
+      "url": "https://editorial.rottentomatoes.com/article/glass-first-reviews-jackson-and-mcavoy-shine-in-what-critics-are-calling-a-disappointing-trilogy-conclusion",
+      "sentiment": "negativa",
+      "estratto": "M. Night Shyamalan seems to have delivered the first disappointment of 2019 with *Glass*, the much-anticipated sequel to both 2000’s *Unbreakable* and 2017’s *Split*."
+    },
+    {
+      "fonte": "Metacritic",
+      "url": "https://www.metacritic.com/movie/glass/critic-reviews",
+      "sentiment": "negativa",
+      "estratto": "It’s a film that sometimes plays more as a rambling TED Talk than as a straightforward thriller."
+    },
+    {
+      "fonte": "Metacritic",
+      "url": "https://www.metacritic.com/movie/glass/user-reviews",
+      "sentiment": "negativa",
+      "estratto": "This film had high hopes, but with a slow pacing and a lack of animations or visuals, ultimately led to very few fans having enjoyed the movie."
+    },
+    {
+      "fonte": "Rotten Tomatoes Top Critics",
+      "url": "https://www.rottentomatoes.com/m/glass_2019/reviews/top-critics",
+      "sentiment": "negativa",
+      "estratto": "This may not be M. Night Shyamalan's worst movie, though it's surely his most disappointing."
+    }
+  ]
+}
