@@ -37,7 +37,7 @@ Sviluppatori con un po' di Python (e nozioni minime di `async`/`await`) che vogl
 | --- | --- | --- |
 | [1](maf/ep01_primo_agente/) | Il tuo primo agente (agente vs workflow, multi-provider) | disponibile |
 | [2](maf/ep02_tools_mcp/) | Dare strumenti: tools + MCP | disponibile |
-| 3 | Memoria e stato: thread, sessioni, context provider | in arrivo |
+| [3](maf/ep03_memoria_stato/) | Memoria e stato: sessioni e context provider | disponibile |
 | 4 | Orchestrare piu' agenti: handoff e group chat | in arrivo |
 | 5 | Workflow deterministici + human-in-the-loop | in arrivo |
 | 6 | Valutare: AI-as-judge + AI avversaria | in arrivo |

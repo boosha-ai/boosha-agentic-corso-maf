@@ -1,0 +1,46 @@
+{
+  "titolo": "The Last Airbender",
+  "anno": 2010,
+  "regista": "M. Night Shyamalan",
+  "incasso": "$319.7 million",
+  "rotten_tomatoes": "5%",
+  "descrizione": "The Last Airbender is a 2010 American fantasy action-adventure film based on the first season of the animated television series, Avatar: The Last Airbender (2005–2008). Written and directed by M. Night Shyamalan , the film stars an ensemble cast featuring an array of young actors and is known for its ambitious story of elemental manipulation and heroism.",
+  "recensioni": [
+    {
+      "fonte": "Roger Ebert",
+      "url": "https://www.rogerebert.com/reviews/the-last-airbender-2010",
+      "sentiment": "negativa",
+      "estratto": "The movie was dry, the acting was horrible, and the mood was bleak. The way the bending is portrayed is enough to ruin the movie."
+    },
+    {
+      "fonte": "Metacritic",
+      "url": "https://www.metacritic.com/movie/the-last-airbender/critic-reviews",
+      "sentiment": "positiva",
+      "estratto": "The movie is \"Star Wars\" with martial arts, plus a touch of \"The Last Emperor.\" Technically, it's not badly done; I enjoyed the physical clash of elements."
+    },
+    {
+      "fonte": "Metacritic",
+      "url": "https://www.metacritic.com/movie/the-last-airbender/user-reviews",
+      "sentiment": "negativa",
+      "estratto": "This film has awful acting, terrible special effects, an awful story, and on top of that, they completely messed up the characters names."
+    },
+    {
+      "fonte": "Metacritic",
+      "url": "https://www.metacritic.com/movie/the-last-airbender",
+      "sentiment": "negativa",
+      "estratto": "From the terribly written and wooden dialogue, to complete lack of fun that made the show so enjoyable."
+    },
+    {
+      "fonte": "Metacritic",
+      "url": "https://www.metacritic.com/movie/the-last-airbender/user-reviews?sort-by=date&num_items=100",
+      "sentiment": "negativa",
+      "estratto": "The film has good cinematography and good colors, but the action scenes and martial arts fights are exaggerated to the point of absurdity."
+    },
+    {
+      "fonte": "Rotten Tomatoes",
+      "url": "https://www.rottentomatoes.com/m/last_airbender/reviews/top-critics",
+      "sentiment": "negativa",
+      "estratto": "This empty, misfired epic from M. Night Shyamalan is boring and strengthens the claim that he is the worst director working in mainstream cinema today."
+    }
+  ]
+}

@@ -20,10 +20,27 @@ Se preferisci partire da zero invece di `uv sync`:
 
 ```bash
 uv init
-uv add agent-framework-core agent-framework-openai agent-framework-ollama python-dotenv beautifulsoup4 mcp tavily-python
+uv add agent-framework-core agent-framework-openai agent-framework-ollama python-dotenv beautifulsoup4 mcp tavily-python gradio
 ```
 
 > Nota: il meta-pacchetto `agent-framework[all]` non risolve per via degli extra Azure ancora in pre-release. Si installano i sotto-pacchetti elencati sopra.
+>
+> Nota: `gradio` serve solo a `agente.py` di EP 3, che apre una piccola interfaccia nel browser. I notebook non lo usano.
+
+## Script da terminale (`agente.py`)
+
+Ogni puntata ha anche uno script standalone, che si lancia dalla cartella dell'episodio:
+
+```bash
+cd maf/ep03_memoria_stato
+uv run python agente.py
+```
+
+In EP 3 lo script apre un'interfaccia nel browser (si apre da sola su `127.0.0.1`). Se lavori da remoto, per esempio via SSH, dove `127.0.0.1` non e' raggiungibile dal tuo browser, aggiungi `--share` per ottenere un link pubblico temporaneo:
+
+```bash
+uv run python agente.py --share
+```
 
 ## Variabili d'ambiente (`.env`)
 

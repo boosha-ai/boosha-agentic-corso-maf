@@ -7,6 +7,7 @@ dependencies = [
     "agent-framework-ollama>=1.0.0b260521",
     "agent-framework-openai>=1.8.2",
     "beautifulsoup4>=4.15.0",
+    "gradio>=6.20.0",
     "httpx>=0.28.1",
     "mcp>=1.28.1",
     "python-dotenv>=1.2.2",

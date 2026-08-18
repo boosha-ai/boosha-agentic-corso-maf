@@ -1,0 +1,46 @@
+{
+  "titolo": "Split",
+  "anno": 2016,
+  "regista": "M. Night Shyamalan",
+  "incasso": "$278.5 million",
+  "rotten_tomatoes": "79%",
+  "descrizione": "Split is a 2016 American psychological thriller film written, directed and produced by M. Night Shyamalan, and starring James McAvoy, Anya Taylor-Joy, and Betty Buckley. It is the second installment in the Unbreakable trilogy and a 'stealth sequel' to Unbreakable (2000).",
+  "recensioni": [
+    {
+      "fonte": "Metacritic",
+      "url": "https://www.metacritic.com/movie/split?ftag=MCD-06-10aaa1h&jw_start=%7Bseek_to_second_number%7D",
+      "sentiment": "positiva",
+      "estratto": "Though Kevin (James McAvoy) has evidenced 23 personalities to his trusted psychiatrist, Dr. Fletcher (Betty Buckley), there remains one still submerged who is set to materialize and dominate all the others."
+    },
+    {
+      "fonte": "Metacritic",
+      "url": "https://www.metacritic.com/movie/split",
+      "sentiment": "positiva",
+      "estratto": "Compelled to abduct three teenage girls led by the willful, observ."
+    },
+    {
+      "fonte": "Metacritic",
+      "url": "https://www.metacritic.com/movie/split/user-reviews",
+      "sentiment": "positiva",
+      "estratto": "The psychology themes explored are interesting and the protagonist’s characterization, together with that of the psychotherapist, stands out as one of the film’s strongest assets."
+    },
+    {
+      "fonte": "Metacritic",
+      "url": "https://www.metacritic.com/movie/split/critic-reviews",
+      "sentiment": "positiva",
+      "estratto": "With the chilling, creepy, bold and sometimes bat-bleep absurd Split, the 46-year-old Shyamalan serves notice he’s still got some nifty plot tricks up his sleeve."
+    },
+    {
+      "fonte": "Roger Ebert",
+      "url": "https://www.rogerebert.com/reviews/split-2017",
+      "sentiment": "positiva",
+      "estratto": "Night Shyamalan film, there exists a parallel and simultaneous process of searching for its inevitable twist."
+    },
+    {
+      "fonte": "Rotten Tomatoes",
+      "url": "https://www.rottentomatoes.com/m/split_2016",
+      "sentiment": "positiva",
+      "estratto": "Split is funnier, campier, and more elaborate than its predecessors."
+    }
+  ]
+}
