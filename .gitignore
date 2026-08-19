@@ -18,3 +18,11 @@ __pycache__/
 # artefatti generati dai run dei notebook/script
 output.md
 output_*.md
+output_*.json
+
+# artefatti di EP 3 (memoria): i profili su file e lo store dell'harness
+profilo_*.txt
+mem_harness/
+
+# cache locale di Gradio (agente.py di EP 3)
+.gradio/

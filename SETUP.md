@@ -4,7 +4,7 @@ Due modi per seguire le puntate: **Google Colab** (zero installazione) o **local
 
 ## Google Colab
 
-Apri `pratica.ipynb` della puntata col badge "Apri in Colab" nel suo README. La prima cella rileva l'ambiente e installa le dipendenze con `pip`. Ti servira' solo la `OPENAI_API_KEY` (la inserisci quando il notebook la chiede, o nei *Secrets* di Colab).
+Apri `pratica.ipynb` della puntata col badge "Apri in Colab" nel suo README. La prima cella rileva l'ambiente e installa le dipendenze con `pip`. Ti servira' solo la `OPENAI_API_KEY`: il notebook te la chiede con un prompt nascosto, e resta in memoria per tutta la sessione (non viene salvata da nessuna parte).
 
 ## Locale (uv + VS Code)
 
