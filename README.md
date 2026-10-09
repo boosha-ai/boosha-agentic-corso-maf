@@ -12,6 +12,7 @@ Ogni puntata sta in `maf/epNN_nome/` e contiene:
 
 - `pratica.ipynb` - il notebook eseguibile, da aprire in Google Colab o in Jupyter (VS Code).
 - `agente.py` - lo script da terminale, quando la puntata lo prevede.
+- `progetto/` - da EP 4, il Debate Club come progetto Python, com'era alla fine della puntata (si lancia con `uv run debate-club`, vedi [`SETUP.md`](SETUP.md)).
 
 Il modo piu' veloce: apri il notebook con il badge **"Apri in Colab"** nel README di ogni puntata. In Colab la prima cella rileva l'ambiente e installa le dipendenze da sola.
 
@@ -38,7 +39,7 @@ Sviluppatori con un po' di Python (e nozioni minime di `async`/`await`) che vogl
 | [1](maf/ep01_primo_agente/) | Il tuo primo agente (agente vs workflow, multi-provider) | disponibile |
 | [2](maf/ep02_tools_mcp/) | Dare strumenti: tools + MCP | disponibile |
 | [3](maf/ep03_memoria_stato/) | Memoria e stato: sessioni e context provider | disponibile |
-| 4 | Orchestrare piu' agenti: handoff e group chat | in arrivo |
+| [4](maf/ep04_orchestrazione/) | Orchestrare piu' agenti: handoff e group chat, nasce il Debate Club | disponibile |
 | 5 | Workflow deterministici + human-in-the-loop | in arrivo |
 | 6 | Valutare: AI-as-judge + AI avversaria | in arrivo |
 

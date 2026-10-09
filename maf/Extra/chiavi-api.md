@@ -58,6 +58,19 @@ Il provider cloud di default della serie.
 > Vai in **Settings → Billing**, aggiungi un metodo di pagamento e un po' di credito (bastano pochi
 > euro). Senza credito le chiamate falliscono con un errore di *quota*, anche se la chiave è giusta.
 
+> 🕵️ **L'errore che non dice quello che sembra.** Se `OPENAI_API_KEY` non viene trovata, MAF non ti
+> dice "manca la chiave": ripiega sul percorso Azure OpenAI e solleva un errore che parla d'altro,
+>
+> ```
+> SettingNotFoundError: Exactly one of 'base_url', 'endpoint' must be provided, but none was set.
+> ```
+>
+> Se lo vedi, **non cercare `base_url`**: quasi sempre la chiave semplicemente non è arrivata.
+> Le due cause tipiche sono che il `.env` non esiste ancora (o la riga è scritta male), oppure che
+> `load_dotenv()` non trova il file. Lo cerca risalendo le cartelle, a partire da quella del
+> notebook o dello script: se il `.env` non sta in nessuna delle cartelle sopra, per lui non
+> esiste. Tienilo nella radice del corso.
+
 ---
 
 ## 2. Pushover (opzionale, per la push)
